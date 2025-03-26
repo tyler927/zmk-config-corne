@@ -20,10 +20,10 @@
 
         default_layer {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F      &kp P               &kp B         &kp J            &kp L      &kp U            &kp Y    &kp SEMICOLON  &kp DELETE
-&sk LALT   &kp A  &kp R  &kp S      &kp T               &kp G         &kp M            &kp N      &kp E            &kp I    &kp O             &sk RIGHT_ALT
-&sk LSHFT  &kp Z  &kp X  &kp C      &kp D               &kp V         &kp K            &kp H      &kp COMMA        &kp DOT  &kp FSLH          &sl 4
-                         &sk LCTRL  &mt LEFT_GUI ENTER  &lt 2 TAB    &lt 3 BACKSPACE  &kp SPACE  &sk RIGHT_SHIFT
+&kp TAB    &kp Q  &kp W  &kp F      &kp P               &kp B              &kp J        &kp L      &kp U            &kp Y    &kp SEMICOLON  &kp DELETE
+&sk LALT   &kp A  &kp R  &kp S      &kp T               &kp G              &kp M        &kp N      &kp E            &kp I    &kp O          &kp SINGLE_QUOTE
+&sk LSHFT  &kp Z  &kp X  &kp C      &kp D               &kp V              &kp K        &kp H      &kp COMMA        &kp DOT  &kp FSLH       &sl 4
+                         &sk LCTRL  &mt LEFT_GUI ENTER  &lt 1 BACKSPACE    &lt 2 SPACE  &kp ENTER  &sk RIGHT_SHIFT
             >;
         };
 
