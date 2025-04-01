@@ -21,10 +21,10 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp F      &kp P               &kp B              &kp J        &kp L      &kp U            &kp Y    &kp SEMICOLON  &kp DELETE
-&sk LALT   &kp A  &kp R  &kp S      &kp T               &kp G              &kp M        &kp N      &kp E            &kp I    &kp O          &kp SINGLE_QUOTE
-&sk LSHFT  &kp Z  &kp X  &kp C      &kp D               &kp V              &kp K        &kp H      &kp COMMA        &kp DOT  &kp FSLH       &mo 3
-                         &sk LCTRL  &mt LEFT_GUI ENTER  &lt 1 BACKSPACE    &lt 2 SPACE  &kp ENTER  &sk RIGHT_SHIFT
+&kp ESCAPE        &kp Q  &kp W  &kp F         &kp P               &kp B        &kp J            &kp L      &kp U            &kp Y    &kp SEMICOLON  &kp DELETE
+&sk LEFT_CONTROL  &kp A  &kp R  &kp S         &kp T               &kp G        &kp M            &kp N      &kp E            &kp I    &kp O          &kp SINGLE_QUOTE
+&sk LSHFT         &kp Z  &kp X  &kp C         &kp D               &kp V        &kp K            &kp H      &kp COMMA        &kp DOT  &kp FSLH       &mo 3
+                                &sk LEFT_ALT  &mt LEFT_GUI ENTER  &lt 1 TAB    &lt 2 BACKSPACE  &kp SPACE  &sk RIGHT_SHIFT
             >;
         };
 
@@ -58,16 +58,8 @@
             >;
         };
 
-        extra_1 {
-                status = "reserved";
-        };
+        extra_1 { status = "reserved"; };
 
-        extra_2 {
-                status = "reserved";
-        };
-
-        extra_3 {
-                status = "reserved";
-        };
+        extra_2 { status = "reserved"; };
     };
 };
