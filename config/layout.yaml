@@ -1,0 +1,133 @@
+layout: {zmk_keyboard: corne}
+layers:
+  Base: [tab, q, w, f, p, b, j, l, u, y, ;, esc, ctrl, a, r, s, t, g, m, n, e, i, o, '''', shift, z, x, c, d, v, k, h, ',', ., /, enter, cmd,
+    lower, bspc, space, raise, shift]
+  Lower:
+  - {t: " ", type: trans}
+  - bright up
+  - bright down
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - vol up
+  - page up
+  - home
+  - up
+  - end
+  - {t: " ", type: trans}
+  - del
+  - {t: " ", type: trans}
+  - {t: shift}
+  - {t: ctrl}
+  - {t: alt}
+  - {t: cmd}
+  - vol down
+  - page down
+  - left
+  - down
+  - right
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - caps
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - prev
+  - next
+  - play pause
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {type: held}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  Raise:
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - '['
+  - '{'
+  - (
+  - '~'
+  - '^'
+  - )
+  - '}'
+  - ']'
+  - '`'
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - '-'
+  - '*'
+  - '='
+  - _
+  - $
+  - '#'
+  - {t: cmd}
+  - {t: alt}
+  - {t: ctrl}
+  - {t: shift}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - +
+  - '|'
+  - '@'
+  - /
+  - '%'
+  - {t: " ", type: trans}
+  - \
+  - '&'
+  - '?'
+  - '!'
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {type: held}
+  - {t: " ", type: trans}
+  Combo:
+  - {t: " ", type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5' 
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {t: shift}
+  - {t: ctrl}
+  - {t: alt}
+  - {t: cmd}
+  - f11
+  - f12
+  - {t: cmd}
+  - {t: alt}
+  - {t: ctrl}
+  - {t: shift}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - f1
+  - f2
+  - f3
+  - f4
+  - f5
+  - f6
+  - f7
+  - f8
+  - f9
+  - f10
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {type: held}
+  - {t: " ", type: trans}
+  - {t: " ", type: trans}
+  - {type: held}
+  - {t: " ", type: trans}
